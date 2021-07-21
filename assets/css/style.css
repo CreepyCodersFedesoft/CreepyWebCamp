@@ -70,6 +70,11 @@ h1#logo {
 	height:56px;
 	margin:23px 0 0 12px;
 }
+
+.text-container p{
+	text-align: justify;
+}
+
 h1#logo a {
 	display:block;
 	height:56px;
@@ -184,10 +189,10 @@ h1#logo a {
 	margin-bottom:13px;
 }
 .slider-left p {
+	text-align: justify;
 	font-size:13px;
 	line-height:18px;
 	font-family:Arial;
-	text-align: justify;
 }
 .slider-left .order-now {
 	display:block;
@@ -210,6 +215,7 @@ h1#logo a {
 	display:inline;
 	width:656px;
 	height:225px;
+	text-align: justify;
 }
 .slider-content {
 	position:relative;
@@ -270,7 +276,7 @@ h1#logo a {
 	width:324px;
 }
 #sidebar .text-container {
-	min-height:221px;
+	min-height:150px;
 	background:#eaebeb url(../img/text-containerbg.gif) repeat-x 0 0;
 	padding:20px 15px 0 18px;
 	margin-bottom:20px;
@@ -279,7 +285,17 @@ h1#logo a {
 	margin-bottom:6px;
 }
 .post {
+	text-align: justify;
 }
+
+.post p{
+	margin: 10px 0px 10px 0px;
+}
+
+.post img{
+	margin: 10px 10px 10px 10px;
+}
+
 .post h2 {
 	border-bottom:5px solid #e4e4e4;
 	padding-bottom:5px;
