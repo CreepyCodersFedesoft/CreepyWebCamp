@@ -4,7 +4,7 @@
 	outline:0;
 }
 body {
-	font-size:12px;
+	font-size:14px;
 	line-height:22px;
 	font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
 	color:#4a4a4a;
@@ -187,6 +187,7 @@ h1#logo a {
 	font-size:13px;
 	line-height:18px;
 	font-family:Arial;
+	text-align: justify;
 }
 .slider-left .order-now {
 	display:block;
