@@ -64,6 +64,46 @@
         </p>
         <div class="cl">&nbsp;</div>
     </div>
+    <div class="ejemplo1">
+        <h2>Variables var</h2>
+        <img src="../img/ejercicio-5.png" alt="" class="right" />
+        <p>Las  declaraciones de variables, donde sea que ocurran, son procesadas antes de que cualquier otro código 
+            sea ejecutado. El ámbito de una variable declarada con la palabra reservada var es su contexto de ejecución 
+            en curso, que puede ser la función que la contiene o, para las variables declaradas afuera de cualquier 
+            función, un ámbito global. Si re-declaras una variable Javascript, esta no perderá su valor. <br> <br>
+
+            Asignar un valor a una variable no declarada implica crearla como variable global (se convierte en una 
+            propiedad del objeto global) cuando la asignación es ejecutada.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Variables let</h2>
+        <img src="../img/ejercicio-6.png" alt="" class="right" />
+        <p>Let te permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se 
+            está usando, a diferencia de la palabra clave var la cual define una variable global o local en una función 
+            sin importar el ámbito del bloque. La otra diferencia entre var y let es que este último se inicializa a un
+            valor sólo cuando un analizador lo evalúa (ver abajo). <br> <br>
+
+            Al igual que const, let no crea propiedades del objeto se declara globalmente (en el alcance más alto).
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Constantes</h2>
+        <img src="../img/ejercicio-7.png" alt="" class="right" />
+        <p>Esta declaración crea una constante cuyo alcance puede ser global o local para el bloque en el que se declara. 
+            Es necesario inicializar la constante, es decir, se debe especificar su valor en la misma sentencia en la que 
+            se declara, lo que tiene sentido, dado que no se puede cambiar posteriormente. <br> <br>
+
+            La declaración de una constante crea una referencia de sólo lectura. No significa que el valor que tiene sea 
+            inmutable, sino que el identificador de variable no puede ser reasignado, por lo tanto, en el caso de que la 
+            asignación a la constante sea un objeto, el objeto sí que puede ser alterado. <br> <br>
+            
+            Una constante no puede compartir su nombre con una función o variable en el mismo ámbito.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
     <div id="footer">
         <div class="shell">
             <p class="lf">Copyright &copy; 2021 <a href="#">CreepyWebCamp</a> - All Rights Reserved</p>
