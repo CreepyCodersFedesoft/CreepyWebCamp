@@ -1,0 +1,203 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>JavaScript Ejercicios</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/style-javascript.css" type="text/css" media="all" />
+    <script src="../js/jquery-1.4.2.js" type="text/javascript"></script>
+    <script src="../js/jquery.jcarousel.js" type="text/javascript"></script>
+    <script src="../js/js-func.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- START PAGE SOURCE -->
+    <div id="header">
+        <div class="shell">
+            <h1 id="logo" class="notext"><a href="#">PlainPlan - Keep your website simple</a></h1>
+            <div id="navigation">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="titulo">Ejemplos JavaScript</h2>
+    </div>
+    <div class="ejemplo1">
+        <h2>Como invocar JavaScript en HTML?</h2>
+        <img src="../img/ejercicio-1.png" alt="" class="right" />
+        <p>Puedes hacerlo utilizando la etiqueta &lt;script&gt; &lt;/script&gt; que debe envolver 
+            todo el código JS que escribas. Se coloca al final de la etiqueta &lt;body&gt;, puesto que, 
+            esto ayuda a mejorar la velocidad de carga, ya que el contenido del sitio web se cargará 
+            más rápido, y solo después de eso se procesará el JavaScript.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Alert</h2>
+        <img src="../img/ejercicio-2.png" alt="" class="right" />
+        <p>Es una función del lenguaje de programación JavaScript que devuelve un cuadro de alerta. 
+            Se usa para advertir al usuario del navegador de que algo está mal o algo que debería mejorar, 
+            así como que puede ser también útil para dar información sobre algo concreto
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Console.log()</h2>
+        <img src="../img/ejercicio-3.png" alt="" class="right" />
+        <p>Es una función en JavaScript que se utiliza para imprimir cualquier tipo de variables definidas
+           anteriormente en ella o simplemente para imprimir cualquier mensaje que necesite ser mostrado al usuario. <br> <br>
+
+            Parámetros: Acepta un parámetro que puede ser una matriz, un objeto o cualquier mensaje. <br>
+            Valor devuelto: Devuelve el valor del parámetro dado.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Prompt</h2>
+        <img src="../img/ejercicio-4.png" alt="" class="right" />
+        <p>El método prompt() muestra un cuadro de diálogo que solicita al visitante la entrada. <br> <br> 
+            A menudo se utiliza un cuadro de solicitud si desea que el usuario escriba un valor antes de entrar en una página.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Variables var</h2>
+        <img src="../img/ejercicio-5.png" alt="" class="right" />
+        <p>Las  declaraciones de variables, donde sea que ocurran, son procesadas antes de que cualquier otro código 
+            sea ejecutado. El ámbito de una variable declarada con la palabra reservada var es su contexto de ejecución 
+            en curso, que puede ser la función que la contiene o, para las variables declaradas afuera de cualquier 
+            función, un ámbito global. Si re-declaras una variable Javascript, esta no perderá su valor. <br> <br>
+
+            Asignar un valor a una variable no declarada implica crearla como variable global (se convierte en una 
+            propiedad del objeto global) cuando la asignación es ejecutada.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Variables let</h2>
+        <img src="../img/ejercicio-6.png" alt="" class="right" />
+        <p>Let te permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se 
+            está usando, a diferencia de la palabra clave var la cual define una variable global o local en una función 
+            sin importar el ámbito del bloque. La otra diferencia entre var y let es que este último se inicializa a un
+            valor sólo cuando un analizador lo evalúa (ver abajo). <br> <br>
+
+            Al igual que const, let no crea propiedades del objeto se declara globalmente (en el alcance más alto).
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Constantes</h2>
+        <img src="../img/ejercicio-7.png" alt="" class="right" />
+        <p>Esta declaración crea una constante cuyo alcance puede ser global o local para el bloque en el que se declara. 
+            Es necesario inicializar la constante, es decir, se debe especificar su valor en la misma sentencia en la que 
+            se declara, lo que tiene sentido, dado que no se puede cambiar posteriormente. <br> <br>
+
+            La declaración de una constante crea una referencia de sólo lectura. No significa que el valor que tiene sea 
+            inmutable, sino que el identificador de variable no puede ser reasignado, por lo tanto, en el caso de que la 
+            asignación a la constante sea un objeto, el objeto sí que puede ser alterado. <br> <br>
+            
+            Una constante no puede compartir su nombre con una función o variable en el mismo ámbito.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Tipos de datos</h2>
+        <img src="../img/ejercicio-8.png" alt="" class="right" />
+        <p>JavaScript es un lenguaje débilmente tipado y dinámico. Las variables en JavaScript no están asociadas directamente 
+            con ningún tipo de valor en particular, y a cualquier variable se le puede asignar (y reasignar) valores de todos 
+            los tipos. <br> <br>
+            <h3>Valores primitivos</h3>
+            Todos los tipos, excepto los objetos, definen valores inmutables (es decir, valores que no se pueden cambiar). 
+            Por ejemplo, las cadenas son inmutables. Nos referimos a los valores de estos tipos como "valores primitivos". <br> <br>
+            <h3>Tipo String</h3>  
+            El tipo String de JavaScript se utiliza para representar datos textuales. Es un conjunto de "elementos" de valores 
+            enteros sin signo de 16 bits. Cada elemento del String ocupa una posición en la cadena. El primer elemento está en 
+            el índice 0, el siguiente en el índice 1, y así sucesivamente. La longitud de una cadena es el número de elementos 
+            que contiene. <br> <br>
+            <h3>Tipo Integer</h3>  
+            la mayoría de los motores de JavaScript almacenan un número lo suficientemente pequeño sin una fracción decimal 
+            como un entero (con, por ejemplo, 31 bits) y mantienen esa representación el mayor tiempo posible. <br> <br>
+            <h3>Tipo Float</h3>  
+            El punto flotante se define como el número que tiene los números decimales. Se ha escrito dinámicamente y la mayoría
+            de las veces los números se convierten al formato implícito entre las cadenas y el tipo flotante de números 
+            puntiagudos también estos números están en el formato IEEE y han sido los valores de formato de 64 bits para forzar 
+            los valores de las variables. <br> <br>
+            <h3>Tipo Boolean</h3>  
+            Boolean representa una entidad lógica y puede tener dos valores: true y false. <br> <br>
+            <h3>Date</h3>
+            Si no proporciona argumentos, el constructor crea un objeto Date con la hora y fecha de hoy según la hora local. <br>
+            Si proporciona algunos argumentos, debe proporcionar al menos 2 argumentos. Los argumentos vacíos se establecen a 0 
+            (ó 1 si falta el día).  <br>
+            La fecha se mide en milisegundos desde la media noche exacta del 01 de enero de 1970 en formato UTC. Un día contiene 
+            86.400.000 milisegundos. El rango del objeto Date va desde -100,000,000 días hasta 100,000,000 días respecto del 01 
+            de enero de 1970 UTC.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Funciones</h2>
+        <img src="../img/ejercicio-9.png" alt="" class="right" />
+        <p>Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función en JavaScript es similar 
+            a un procedimiento: un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento 
+            califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y 
+            la salida. Para usar una función, debes definirla en algún lugar del ámbito desde el que deseas llamarla. <br><br>
+            Una definición de función (también denominada declaración de función o expresión de función) consta de la palabra clave function, 
+            seguida de: <br>
+
+            -El nombre de la función. <br>
+            -Una lista de parámetros de la función, entre paréntesis y separados por comas. <br>
+            -Las declaraciones de JavaScript que definen la función, encerradas entre llaves, { ... }. 
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Funciones flecha</h2>
+        <img src="../img/ejercicio-10.png" alt="" class="right" />
+        <p>La expresión de función flecha (también conocida como función flecha gruesa) dispone de una sintaxis más corta comparada con 
+            la expresión de función convencional y vincula contextualmente el valor de this. <br> <br>
+            Una de las razones por las que se introdujeron las funciones flecha fue para eliminar complejidades del ámbito (this) y hacer 
+            que la ejecución de funciones sea mucho más intuitiva. Anterior a las funciones flecha, cada nueva función definía su propio 
+            valor de this (un nuevo objeto en el caso de un constructor, undefined en llamadas a funciones en modo estricto, el objeto 
+            contextual si la función se llama como un "método de un objeto", etc.). Lo cual resultaba molesto cuando se intentaba aplicar 
+            programación orientada a objetos.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Condicional if/else</h2>
+        <img src="../img/ejercicio-11.png" alt="" class="right" />
+        <p>Ejecuta una sentencia si una condición específicada es evaluada como verdadera. Si la condición es evaluada como falsa, otra 
+            sentencia puede ser ejecutada. <br> <br>
+            <h3>Sintaxis</h3>
+            <b>Condición</b>: Una expresión que puede ser evaluada como verdadera o falsa. <br>
+            <b>Sentencia1</b>: Sentencia que se ejecutará si condición es evaluada como verdadera. Puede ser cualquier sentencia, incluyendo otras sentenccias if anidadas. Para ejecutar múltiples sentencias, use una sentencia block ({ ... }) para agruparlas. <br>
+            <b>Sentencia2</b>: Sentencia que se ejecutará si condición se evalúa como falsa, y exista una cláusula else. Puede ser cualquier sentencia, incluyendo sentencias block y otras sentencias if anidadas. <br>
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div class="ejemplo1">
+        <h2>Condicional switch</h2>
+        <img src="../img/ejercicio-12.png" alt="" class="right" />
+        <p>La declaración switch evalúa una expresión, comparando el valor de esa expresión con una instancia case, y ejecuta declaraciones asociadas a ese case, así como las declaraciones en los case que siguen. <br> <br>
+            <h3>Sintaxis</h3>
+            <b>Expresión</b>: Es una expresión que es comparada con el valor de cada instancia case. <br>
+            <b>case valorN</b>: Una instancia case valorN es usada para ser comparada con la expresión. Si la expresión coincide con el valorN, las declaraciones dentro de la instancia case se ejecutan hasta que se encuentre el final de la declaración switch o hasta encontrar una interrupción break. <br>
+            <b>default</b>: Una instancia default, cuando es declarada, es ejecutada si el valor de la expresión no coincide con cualquiera de las otras instancias case valorN.
+        </p>
+        <div class="cl">&nbsp;</div>
+    </div>
+    <div id="footer">
+        <div class="shell">
+            <p class="lf">Copyright &copy; 2021 <a href="#">CreepyWebCamp</a> - All Rights Reserved</p>
+            <p class="rf">Design by <a href="http://chocotemplates.com/">Creepy Coders</a></p>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <!-- END PAGE SOURCE -->
+</body>
+
+</html>
