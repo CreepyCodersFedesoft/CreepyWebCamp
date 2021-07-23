@@ -350,3 +350,6 @@ h3{
 	font-size: 40px;
 	text-align: center;
 }
+.temasHover:hover {
+	background-color: #d8d5d5;
+}
