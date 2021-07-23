@@ -9,7 +9,7 @@ const validarFormularioScrum = () =>{
     let $Q3S = document.getElementsByName("Q3ALGOS");
     let $Q4S = document.getElementsByName("Q4ALGOS");
     let $Q5S = document.getElementsByName("Q5ALGOS");
-
+    resultado = 0;
     
     if (validadorScrum($Q1S, "b") && validadorScrum($Q2S, "a") && validadorScrum($Q3S, "c") && validadorScrum($Q4S, "c") && validadorScrum($Q5S, "c")) {
         alert("Se tienen " + resultado + " de  5 respuestas correctas");
