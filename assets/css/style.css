@@ -353,3 +353,41 @@ h3{
 .temasHover:hover {
 	background-color: #d8d5d5;
 }
+.enlaces {
+	text-decoration:none;
+	color:black;
+}
+.enlaces:hover {
+	text-decoration:none;
+	color:black;
+}
+
+.enlaces {
+	position: relative;
+	display: block;
+	padding: 5px;
+}
+
+.enlaces::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+	z-index: 1;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.5s ease-in-out;
+}
+
+.enlaces:hover::before {
+	transform: scaleX(1);
+}
+
+/* ANIMATIONS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.enlaces[data-animation="to-left"] .enlaces::before {
+	transform-origin: right;
+}
