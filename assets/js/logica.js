@@ -4,12 +4,13 @@ let resultado = 0;
 
 
 const validarFormularioAlgoritmo = () =>{
+    resultado = 0;
     let $Q1 = document.getElementsByName("Q1ALGO");
     let $Q2 = document.getElementsByName("Q2ALGO");
     let $Q3 = document.getElementsByName("Q3ALGO");
     let $Q4 = document.getElementsByName("Q4ALGO");
     let $Q5 = document.getElementsByName("Q5ALGO");
-    resultado = 0;
+
     
     if (validadorAlgo($Q1, "b") && validadorAlgo($Q2, "a") && validadorAlgo($Q3, "d") && validadorAlgo($Q4, "a") && validadorAlgo($Q5, "c")) {
         alert("Se tienen " + resultado + " de  5 respuestas correctas");
