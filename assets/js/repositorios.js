@@ -10,8 +10,9 @@ const validarFormularioAlgoritmo = () =>{
     let $Q4 = document.getElementsByName("Q4ALGO");
     let $Q5 = document.getElementsByName("Q5ALGO");
     resultado = 0;
+
     
-    if (validadorAlgo($Q1, "b") && validadorAlgo($Q2, "a") && validadorAlgo($Q3, "d") && validadorAlgo($Q4, "a") && validadorAlgo($Q5, "c")) {
+    if (validadorAlgo($Q1, "d") && validadorAlgo($Q2, "a") && validadorAlgo($Q3, "a") && validadorAlgo($Q4, "a") && validadorAlgo($Q5, "c")) {
         alert("Se tienen " + resultado + " de  5 respuestas correctas");
     } else {
         alert("faltan respuestas por marcar")
