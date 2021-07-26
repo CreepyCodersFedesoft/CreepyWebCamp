@@ -8,7 +8,7 @@ const validarFormularioBootstrap = () =>{
     let $Q1 = document.getElementsByName("bootstrap");
     let $Q2 = document.getElementsByName("integracion");
     let $Q3 = document.getElementsByName("creacion");
-
+    result= 0;
     if (validadorAlgo($Q1, "c") && validadorAlgo($Q2, "a") && validadorAlgo($Q3, "c")) {
         alert("Se tienen " + result + " de  3 respuestas correctas");
     } else {
@@ -44,11 +44,9 @@ const compareQuestion = (Q, res) => {
     }
 };
 
-//Funciones
 
-fnaValidar =()=>{
-    alert("Bien");
-}
+
+
 
 //EVENTOS
 
