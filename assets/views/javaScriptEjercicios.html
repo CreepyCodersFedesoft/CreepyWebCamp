@@ -82,7 +82,7 @@
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="Q1ALGO" id="Q1ALGOP4">
-                        <label class="form-check-label" for="Q1ALGOP4" name="Q1ALGOP3">
+                        <label class="form-check-label" for="Q1ALGOP4" name="Q1ALGOP4">
                             d. Es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor.
                         </label>
                     </div>
@@ -212,7 +212,33 @@
                     <p>
                         Al dar clic en validar, se revisarán las respuestas ingresadas
                     </p>
-                    <a class="btn btn-primary btn-lg" href="#" id="btnValAlgo" role="button">Validar Respuestas</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" href="#" id="btnValAlgo" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Validar Respuestas
+                    </button>
+
+                    <!-- Inicio Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Puntuación</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" id="modalRes">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
                 </div>
             </div>
         </div>
