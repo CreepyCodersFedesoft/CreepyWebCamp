@@ -1,5 +1,5 @@
 //Variables
-let validar = document.getElementById("btnValidar");
+let $validar = document.getElementById("btnValidar");
 let $modalRes = document.getElementById("modalRes");
 let result = 0;
 
@@ -14,8 +14,8 @@ const validarFormularioBootstrap = () =>{
     limpiar($Q2);
     limpiar($Q3);
     if (validadorAlgo($Q1, "c") && validadorAlgo($Q2, "a") && validadorAlgo($Q3, "c")) {
-        txtModal = `Se tienen ${result} de 5 respuestas correctas\n
-        La puntuación fue de ${result*20} puntos`;
+        txtModal = `Se tienen ${result} de 3 respuestas correctas\n
+        La puntuación fue de ${Math.ceil(result*33.33)} puntos`;
         document.getElementById("exampleModalLabel").innerHTML = "Puntuación";
         $modalRes.innerText = txtModal;
     } else {
@@ -23,13 +23,13 @@ const validarFormularioBootstrap = () =>{
         $modalRes.innerText = "Error: Faltan respuestas por marcar";
         result = 0;
     }
-
 };
+
 const validadorAlgo = (Q, res) =>{
     for (let i = 0; i < Q.length; i++) {
         if(Q[i].checked){
             if (compareQuestion(Q[i], res)) {
-                resultado += 1;
+                result += 1;
             }
             return true;
         }
@@ -67,9 +67,7 @@ const limpiar = (q) => {
     }
 };
 
-$btnValAlgo.onclick = function () {
-    
-    validarFormularioAlgoritmo();
+$validar.onclick = () => {
+    validarFormularioBootstrap();
 };
-
 

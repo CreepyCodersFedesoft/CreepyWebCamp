@@ -3,7 +3,6 @@ let $modalRes = document.getElementById("modalRes");
 let resultado = 0;
 
 
-
 const validarFormularioScrum = () =>{
     let txtModal = "";
     let $Q1S = document.getElementsByName("Q1ALGOS");
@@ -12,11 +11,11 @@ const validarFormularioScrum = () =>{
     let $Q4S = document.getElementsByName("Q4ALGOS");
     let $Q5S = document.getElementsByName("Q5ALGOS");
     resultado = 0;
-    limpiar($Q1);
-    limpiar($Q2);
-    limpiar($Q3);
-    limpiar($Q4);
-    limpiar($Q5);
+    limpiar($Q1S);
+    limpiar($Q2S);
+    limpiar($Q3S);
+    limpiar($Q4S);
+    limpiar($Q5S);
     
     if (validadorScrum($Q1S, "b") && validadorScrum($Q2S, "a") && validadorScrum($Q3S, "c") && validadorScrum($Q4S, "c") && validadorScrum($Q5S, "c")) {
         txtModal = `Se tienen ${resultado} de 5 respuestas correctas\n
@@ -32,10 +31,10 @@ const validarFormularioScrum = () =>{
 };
 
 
-const validadorAlgoScrum = (Q, res) =>{
+const validadorScrum = (Q, res) =>{
     for (let i = 0; i < Q.length; i++) {
         if(Q[i].checked){
-            if (compareQuestion(Q[i], res)) {
+            if (compareQuestionScrum(Q[i], res)) {
                 resultado += 1;
             }
             return true;
@@ -62,7 +61,7 @@ const compareQuestionScrum = (Q, res) => {
     }
 };
 
-const limpiarScrum = (q) => {
+const limpiar = (q) => {
     let question = NaN;
     let id = "";
     console.log(q.length);
@@ -74,7 +73,7 @@ const limpiarScrum = (q) => {
     }
 };
 
-$btnValAlgo.onclick = function () {
+btnScrum.onclick = function () {
     
-    validarFormularioAlgoritmo();
+    validarFormularioScrum();
 };
