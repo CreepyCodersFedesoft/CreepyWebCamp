@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+    <!-- CDN para usar las hojas de estilosd de bootstrap 5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CDN para usar bootstrap icons (icono de boostrap) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="../js/jquery-1.4.2.js" type="text/javascript"></script>
+    <script src="../js/jquery.jcarousel.js" type="text/javascript"></script>
+    <script src="../js/js-func.js" type="text/javascript"></script>
+    <title>CSS - CreepyWebCamp</title>
+</head>
+
+<body>
+
+    <!-- START PAGE SOURCE -->
+    <div id="header">
+        <div class="shell">
+            <h1 id="logo" class="notext"><a href="../../index.html">PlainPlan - Keep your website simple</a></h1>
+            <div id="navigation">
+                <ul>
+                    <li><a href="../../index.html" class="active">Home</a></li>
+                    <li><a href="#">Cursos</a>
+                        <div class="dd-holder">
+                            <div class="dd-t"></div>
+                            <div class="dd">
+                                <ul>
+                                    <li><a href="../views/html.html">HTML</a></li>
+                                    <li><a href="../views/css.html">CSS</a></li>
+                                    <li><a href="../views/javaScript.html">Javascript</a></li>
+                                    <li><a href="../views/logica.html">Lógica</a></li>
+                                    <li><a href="../views/algoritmia.html">Algoritmia</a></li>
+                                    <li><a href="../views/scrum.html">Scrum</a></li>
+                                    <li><a href="../views/repositorios.html">Repositorios</a></li>
+                                    <li><a href="../views/bootstrap.html">Bootstrap</a></li>
+                                </ul>
+                            </div>
+                            <div class="dd-b"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!--CONTENIDO FORMULARIO-->
+    <div class="container">
+        <div class="row p-5">
+            <div class="col-md-12 p-5 pt-1">
+                <div class="jumbotron m-5 mt-0">
+                    <h1 class="display-4 text-center">Formulario CSS</h1>
+                    <p class="lead">
+                        1. ¿Cuál de las siguientes respuestas <b>NO</b> es una definición de CSS?
+                        <!--Respuesta correcta la b-->
+                    </p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q1ALGO" id="Q1ALGOP1">
+                        <label class="form-check-label" for="Q1ALGOP1" name="Q1ALGOP1">
+                            a. Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado..
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q1ALGO" id="Q1ALGOP2">
+                        <label class="form-check-label" for="Q1ALGOP2"  name="Q1ALGOP2">
+                            b. Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q1ALGO" id="Q1ALGOP3">
+                        <label class="form-check-label" for="Q1ALGOP3" name="Q1ALGOP3">
+                            c. Es un lenguaje que define la apariencia de un documento escrito.   
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q1ALGO" id="Q1ALGOP4">
+                        <label class="form-check-label" for="Q1ALGOP4" name="Q1ALGOP3">
+                            d. Es una tecnología que nos permite crear páginas web de una manera más exacta.
+                        </label>
+                    </div>
+                    <hr class="my-4">
+
+                    <p class="lead">
+                        2. ¿En qué año el W3C inició el proceso de estandarización del CSS?
+                        <!--Respuesta correcta la a-->
+                    </p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q2ALGO" id="Q2ALGOP1">
+                        <label class="form-check-label" for="Q2ALGOP1" name="Q2ALGOP1">
+                            a. 1995
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q2ALGO" id="Q2ALGOP2">
+                        <label class="form-check-label" for="Q2ALGOP2" name="Q2ALGOP2">
+                            b. 1970
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q2ALGO" id="Q2ALGOP3">
+                        <label class="form-check-label" for="Q2ALGOP3" name="Q2ALGOP3">
+                            c. 1997
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q2ALGO" id="Q2ALGOP4">
+                        <label class="form-check-label" for="Q2ALGOP4" name="Q2ALGOP4">
+                            d. 2000
+                        </label>
+                    </div>
+                    <hr class="my-4">
+
+                    <p class="lead">
+                        3. ¿Qué es un selector CSS?
+                        <!--Respuesta correcta la d-->
+                    </p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q3ALGO" id="Q3ALGOP1">
+                        <label class="form-check-label" for="Q3ALGOP1" name="Q3ALGOP1">
+                            a. Es un navegador.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q3ALGO" id="Q3ALGOP2">
+                        <label class="form-check-label" for="Q3ALGOP2" name="Q3ALGOP2">
+                            b. Es un espacio que contiene una cantidad de información conocida o desconocida, es decir un valor.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q3ALGO"  id="Q3ALGOP3">
+                        <label class="form-check-label" for="Q3ALGOP3" name="Q3ALGOP3">
+                            c. Es un adjetivo que significa que algo o alguien varía o puede variar.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q3ALGO" id="Q3ALGOP4">
+                        <label class="form-check-label" for="Q3ALGOP4" name="Q3ALGOP4">
+                            d. Es el nexo de unión entre la hoja de estilos y los documentos a los que se aplique dicha hoja.
+                        </label>
+                    </div>
+                    <hr class="my-4">
+                    
+                    <p class="lead">
+                        4. ¿Cuántas formas tenemos para integrar CSS y HTML?
+                        <!--Respuesta correcta la a-->
+                    </p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q4ALGO" id="Q4ALGOP1">
+                        <label class="form-check-label" for="Q4ALGOP1" name="Q4ALGOP1">
+                            a. 3.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q4ALGO" id="Q4ALGOP2">
+                        <label class="form-check-label" for="Q4ALGOP2" name="Q4ALGOP2">
+                            b. No se pueden integrar, son lenguajes diferentes.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q4ALGO"  id="Q4ALGOP3">
+                        <label class="form-check-label" for="Q4ALGOP3" name="Q4ALGOP3">
+                            c. 2.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q4ALGO"  id="Q4ALGOP4">
+                        <label class="form-check-label" for="Q4ALGOP4" name="Q4ALGOP4">
+                            d. No es necesario integrarlos.
+                        </label>
+                    </div>
+                    <hr class="my-4">
+                    
+                    <p class="lead">
+                        5. ¿Cuál es la sintaxis básica en CSS?
+                        <!--Respuesta correcta la c-->
+                    </p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q5ALGO" id="Q5ALGOP1">
+                        <label class="form-check-label" for="Q5ALGOP1" name="Q5ALGOP1">
+                            a. let variable=valor. 
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q5ALGO"  id="Q5ALGOP2">
+                        <label class="form-check-label" for="Q5ALGOP2" name="Q5ALGOP2">
+                            b. Selector{propiedad: valor}.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q5ALGO" id="Q5ALGOP3">
+                        <label class="form-check-label" for="Q5ALGOP3" name="Q5ALGOP3">
+                            c. propiedad=valor. 
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Q5ALGO" id="Q5ALGOP4">
+                        <label class="form-check-label" for="Q5ALGOP4" name="Q5ALGOP4">
+                            d. Ninguna de las anteriores.
+                        </label>
+                    </div>                    
+
+
+                    <hr class="my-4">
+                    <p>
+                        Al dar clic en validar, se revisarán las respuestas ingresadas.
+                    </p>
+                    <a class="btn btn-primary btn-lg" href="#" id="btnValAlgo" role="button">Validar Respuestas</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="footer">
+        <div class="shell">
+            <p class="lf">2021 <a href="#">CreepyWebCamp</a> - made by CreepyCoders</p>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/logica.js"></script>
+</body>
+
+</html>
