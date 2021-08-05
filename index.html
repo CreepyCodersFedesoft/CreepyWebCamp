@@ -24,35 +24,36 @@
 <body>
 
     <!-- START PAGE SOURCE -->
-    <div id="header mb-1">
-        <div class="shell">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
             <h1 id="logo" class="notext"><a href="#">PlainPlan - Keep your website simple</a></h1>
-            <div id="navigation">
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Cursos</a>
-                        <div class="dd-holder">
-                            <div class="dd-t"></div>
-                            <div class="dd">
-                                <ul>
-                                    <li><a href="./assets/views/html.html">HTML</a></li>
-                                    <li><a href="./assets/views/css.html">CSS</a></li>
-                                    <li><a href="./assets/views/javaScript.html">Javascript</a></li>
-                                    <li><a href="./assets/views/logica.html">Lógica</a></li>
-                                    <li><a href="./assets/views/algoritmia.html">Algoritmia</a></li>
-                                    <li><a href="./assets/views/scrum.html">Scrum</a></li>
-                                    <li><a href="./assets/views/repositorios.html">Repositorios</a></li>
-                                    <li><a href="./assets/views/bootstrap.html">Bootstrap</a></li>
-                                </ul>
-                            </div>
-                            <div class="dd-b"></div>
-                        </div>
-                    </li>                    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./assets/views/html.html">HTML</a></li>
+                  <li><a class="dropdown-item" href="./assets/views/css.html">CSS</a></li>
+                  <li><a class="dropdown-item" href="./assets/views/javaScript.html">Javascript</a></li>
+                  <li><a class="dropdown-item" href="./assets/views/logica.html">Lógica</a></li>
+                  <li><a class="dropdown-item" href="./assets/views/algoritmia.html">Algoritmia</a></li>
+                  <li><a class="dropdown-item" href="./assets/views/scrum.html">Scrum</a></li>
+                  <li><a class="dropdown-item" href="./assets/views/repositorios.html">Repositorios</a></li>
+                  <li><a class="dropdown-item" href="./assets/views/bootstrap.html">Bootstrap</a></li>
                 </ul>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-
+      </nav>
 
     <!--Inicia Carrusel-->
     <div class="container-fluid mt-0">
