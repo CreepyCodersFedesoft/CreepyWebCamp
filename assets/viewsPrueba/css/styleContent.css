@@ -324,6 +324,48 @@ a:focus {
     background-size: contain;
 }
 
+.header .content-inner-html {
+    padding: 100px 30px;
+    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background-size: contain;
+}
+
+.header .content-inner-scrum {
+    padding: 100px 30px;
+    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background-size: contain;
+}
+
+.header .content-inner-logica {
+    padding: 100px 30px;
+    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background-size: contain;
+}
+
+.header .content-inner-boostrap {
+    padding: 100px 30px;
+    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background-size: contain;
+}
+
+.header .content-inner-javascript {
+    padding: 100px 30px;
+    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background-size: contain;
+}
+
+.header .content-inner-repositorios {
+    padding: 100px 30px;
+    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background-size: contain;
+}
+
+.header .content-inner-algoritmia {
+    padding: 100px 30px;
+    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background-size: contain;
+}
+
 .header p {
     color: #FF6F61;
     font-size: 22px;
