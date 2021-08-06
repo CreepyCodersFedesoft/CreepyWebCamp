@@ -332,7 +332,7 @@ a:focus {
 
 .header .content-inner-scrum {
     padding: 100px 30px;
-    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background: url(../img/scrumslider.png) right bottom no-repeat;
     background-size: contain;
 }
 
@@ -344,7 +344,7 @@ a:focus {
 
 .header .content-inner-boostrap {
     padding: 100px 30px;
-    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background: url(../img/bootstrap.png) right bottom no-repeat;
     background-size: contain;
 }
 
@@ -356,13 +356,13 @@ a:focus {
 
 .header .content-inner-repositorios {
     padding: 100px 30px;
-    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background: url(../img/repositorios/git.png) right bottom no-repeat;
     background-size: contain;
 }
 
 .header .content-inner-algoritmia {
     padding: 100px 30px;
-    background: url(../img/css_slider5.jpeg) right bottom no-repeat;
+    background: url(../img/algo3.png) right bottom no-repeat;
     background-size: contain;
 }
 
