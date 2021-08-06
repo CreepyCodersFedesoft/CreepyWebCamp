@@ -22,34 +22,47 @@
 <body>
 
     <!-- START PAGE SOURCE -->
-    <div id="header">
-        <div class="shell">
-            <h1 id="logo" class="notext"><a href="../../index.html">PlainPlan - Keep your website simple</a></h1>
-            <div id="navigation">
-                <ul>
-                    <li><a href="../../index.html" class="active">Home</a></li>
-                    <li><a href="#">Cursos</a>
-                        <div class="dd-holder">
-                            <div class="dd-t"></div>
-                            <div class="dd">
-                                <ul>
-                                    <li><a href="../views/html.html">HTML</a></li>
-                                    <li><a href="../views/css.html">CSS</a></li>
-                                    <li><a href="../views/javaScript.html">Javascript</a></li>
-                                    <li><a href="../views/logica.html">Lógica</a></li>
-                                    <li><a href="../views/algoritmia.html">Algoritmia</a></li>
-                                    <li><a href="../views/scrum.html">Scrum</a></li>
-                                    <li><a href="../views/repositorios.html">Repositorios</a></li>
-                                    <li><a href="../views/bootstrap.html">Bootstrap</a></li>
-                                </ul>
-                            </div>
-                            <div class="dd-b"></div>
-                        </div>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <img src="../img/logo.gif" alt="logo" width="100" height="30" class=" rounded float-start">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./quienes_somos.html">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Cursos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./html.html">HTML</a></li>
+                                <li><a class="dropdown-item" href="./css.html">CSS</a></li>
+                                <li><a class="dropdown-item" href="./javaScript.html">Javascript</a></li>
+                                <li><a class="dropdown-item" href="./logica.html">Lógica</a></li>
+                                <li><a class="dropdown-item" href="./algoritmia.html">Algoritmia</a></li>
+                                <li><a class="dropdown-item" href="./scrum.html">Scrum</a></li>
+                                <li><a class="dropdown-item" href="./repositorios.html">Repositorios</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./bootstrap.html">Bootstrap</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
 
 
     <!--CONTENIDO FORMULARIO-->
